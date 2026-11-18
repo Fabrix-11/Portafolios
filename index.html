@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrizio Verastegui | Portafolio Personal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fuente tecnológica de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">&lt;FABRIZIO<span>/</span>DEV&gt;</a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+            <nav class="nav-links" id="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#galeria">Galería</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#contactos">Contactos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1. SECCIÓN INICIO -->
+    <section id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="tag">// DESARROLLADOR DE SOFTWARE</span>
+                <h1>Hola, soy <br><span class="accent">FABRIZIO VERASTEGUI</span></h1>
+                <p>Desarrollador de Software. Transformo requerimientos lógicos en aplicaciones web funcionales, escalables y seguras con un enfoque tecnológico moderno.</p>
+                <div class="hero-buttons">
+                    <a href="#galeria" class="btn btn-primary">Ver Proyectos &rarr;</a>
+                    <a href="#contactos" class="btn btn-outline">Contactar</a>
+                </div>
+            </div>
+
+            <!-- RECUADROS DE TECNOLOGÍAS (TECH STACK) -->
+            <div class="hero-tech-stack">
+                <h3>Tech Stack</h3>
+                <div class="tech-grid">
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 20v-6h4v6m5-10H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2zM12 4v6m-4-3h8"/></svg>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                        <span>GitHub</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                        <span>Python</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                        <span>SQL Oracle</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                        <span>SQL MySQL</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                        <span>PHP</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 0 1 7.54 16.6l-3.54-3.54a4 4 0 0 0-5.66-5.66l-3.54-3.54A10 10 0 0 1 12 2z"/></svg>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="tech-card">
+                        <svg class="tech-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+                        <span>Java</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- 2. SECCIÓN NOSOTROS -->
+    <section id="nosotros" class="section bg-dark-alt">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">01.</span> Nosotros</h2>
+            
+            <div class="about-container">
+                <div class="about-text-center">
+                    <p>Soy desarrollador enfocado en la creación de sistemas web robustos, bases de datos relacionales y arquitecturas eficientes. Mi enfoque combina lógica de programación estructurada con interfaces modernas, priorizando el rendimiento y la experiencia de usuario en cada proyecto estándar de la industria.</p>
+                </div>
+
+                <!-- DIAGRAMA DE RED TECNOLÓGICA -->
+                <div class="tech-network-wrapper">
+                    <div class="tech-network-grid">
+                        
+                        <!-- HTML5 -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                            <span>HTML5</span>
+                        </div>
+
+                        <!-- CSS3 -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                            <span>CSS3</span>
+                        </div>
+
+                        <!-- JavaScript -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+
+                        <!-- PHP -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                            <span>PHP</span>
+                        </div>
+
+                        <!-- Python -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                            <span>Python</span>
+                        </div>
+
+                        <!-- SQL Oracle -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="SQL Oracle">
+                            <span>SQL Oracle</span>
+                        </div>
+
+                        <!-- SQL MySQL -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL MySQL">
+                            <span>SQL MySQL</span>
+                        </div>
+
+                        <!-- Node.js -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                            <span>Node.js</span>
+                        </div>
+
+                        <!-- Java -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                            <span>Java</span>
+                        </div>
+
+                        <!-- GitHub -->
+                        <div class="tech-bubble">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                            <span>GitHub</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SECCIÓN GALERÍA (6 PROYECTOS) -->
+    <section id="galeria" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">02.</span> Galería de Proyectos</h2>
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1 -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <span class="project-num">PRJ_01</span>
+                    </div>
+                    <h3>Buscaminas en Python</h3>
+                    <p>Junto a un pequeño equipo de desarrolladores, recreamos el juego buscaminas en python</p>
+                    <a href="https://github.com/Fabrix-11/Buscaminas_Python" target="_blank" rel="noopener noreferrer" class="btn btn-card">Visitar Proyecto &rarr;</a>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <span class="project-num">PRJ_02</span>
+                    </div>
+                    <h3>Página web cafetería Atelier</h3>
+                    <p>Creamos una página web sobre una cafetería yo y un grupo de desarrolladores</p>
+                    <a href="https://cafeteria-atelier.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-card">Visitar Proyecto &rarr;</a>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <span class="project-num">PRJ_03</span>
+                    </div>
+                    <h3>Sistema para peluquería</h3>
+                    <p>Aún en desarrollo...</p>
+                    <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-card">Visitar Proyecto &rarr;</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SECCIÓN TESTIMONIOS (3 ESPACIOS VACÍOS) -->
+    <section id="testimonios" class="section bg-dark-alt">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">03.</span> Testimonios</h2>
+            <div class="testimonials-grid">
+                
+                <div class="testimonial-card">
+                    <p class="quote">"Maneja HTML, CSS y JavaScript con inteligencia"</p>
+                    <div class="author">
+                        <strong>Julio Monroy</strong>
+                        <span>Docente</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="quote">"Salió adelante y puso bien el git push"</p>
+                    <div class="author">
+                        <strong>Miguel Pallin</strong>
+                        <span>Docente</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="quote">"Uso de Java con facilidad y ningun complicación"</p>
+                    <div class="author">
+                        <strong>Nilton Mercado</strong>
+                        <span>Docente</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SECCIÓN CONTACTOS -->
+    <section id="contactos" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="accent">04.</span> Contactos</h2>
+            <div class="contact-wrapper">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" id="correo" name="correo" required placeholder="correo@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" required placeholder="Motivo del mensaje">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="btnSubmit">Enviar Mensaje</button>
+                    <div id="formResponse" class="form-response"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Fabrizio Verastegui. Desarrollado con HTML5, CSS3, JS & PHP.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
